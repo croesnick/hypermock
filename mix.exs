@@ -28,6 +28,7 @@ defmodule HyperMock.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:ibrowse, "~> 4.2", only: [:test]},
+     {:hackney, "~> 1.4.4", only: [:test]},
      {:meck, "~> 0.8.2"}]
   end
 end
