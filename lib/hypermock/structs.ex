@@ -1,5 +1,5 @@
 defmodule HyperMock.Request do
-  defstruct method: :get, uri: "http://example.com/", headers: [], body: ""
+  defstruct method: :get, uri: "http://example.com/", headers: [], body: "", options: []
 end
 
 defmodule HyperMock.Response do

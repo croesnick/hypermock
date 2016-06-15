@@ -1,6 +1,6 @@
-defmodule HyperMockTest do
+defmodule HyperMockIBrowseTest do
   use ExUnit.Case, async: false
-  use HyperMock
+  use HyperMock, adapter: HyperMock.Adapter.IBrowse
 
   alias HyperMock.NetConnectNotAllowedError
   alias HyperMock.UnmetExpectationError
